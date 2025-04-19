@@ -1,0 +1,334 @@
+/*-------------------全局样式------------------------*/
+div,ul,li,h1,h2,h3,h4,img{margin:0;padding:0;border:0px;}
+
+.clear {clear:both;font-size:1px;height:0px;line-height:0px;}
+.center{margin:0 auto;}
+.left{float:left}
+.right{float:right}
+
+/*----------------------首页频道模板样式----------------------------*/
+.hptop{height:100%;margin:0 auto;width:958px;background:url(../images/menu_bg.gif) repeat-x bottom left;}
+
+.hptop2{margin:0 auto;width:950px;margin-top:7px;}
+.hpnewspic{float:left;width:351px;background:url(../images/picnews_bg.jpg) repeat-x top left;padding:5px;margin-right:13px;}
+.hpsearch{float:left;width:336px;height:100%;margin-right:13px;}
+.hpmail{float:left;width:220px;height:100%;}
+
+.hpcont{margin:0 auto;width:950px;margin-top:7px;}
+.hpleft{width:311px;margin-right:23px;float:left;}
+.hpright{width:609px;float:left;}
+
+.hpbottom{height:100%;margin:0 auto;width:958px;background:url(../images/copyright_bg.gif) repeat-x bottom left;margin-top:10px;}
+.hpbottom1{height:100%;margin:0 auto;width:958px;}
+/*----------------------首页模块模板样式----------------------------*/
+
+.home01mb{width:100%;margin-top:3px;}
+.home01mb_1{height:24px;}
+
+.home02mb{width:311px;margin-bottom:15px;}
+.home02mb_1{margin-right:155px;margin-top:8px}
+.home02mb_2{margin-top:15px}
+.home02mb_3{padding:3px 0 0 38px;height:130px;}
+
+/*-------------------------首页内容实施样式-------------------------------*/
+/*MENU导航样式*/
+.sitemenu #menu a:hover,#menu,#menu a:link,#menu a:active,#menu a:visited,#menu a:hover{color:#00759C;font-size:12px;font-weight:bold;}
+.hptitle{font-size:14px;color:#185280;font-weight:bold}
+.hpcontent{color:#325068;line-height:21px;text-indent:2em;}
+
+/*概况样式*/
+.hpgk{width:336px;}
+.hpgk1{width:94px;margin-right:6px;}
+.hpgk1 h1{margin-left:20px;height:23px;}
+.hpgk2{width:236px;}
+
+/*信息列表样式*/
+#newslist_module .newslist{height:24px;line-height:24px;}
+.newslist a:link,.newslist a:hover,.newslist a:visited{height:24px;line-height:24px;color:#205076;font-size:12px;text-decoration:none}
+.newslist a:hover{text-decoration:underline}
+
+#newslist_module .newslist2{height:24px;line-height:24px;}
+.newslist2 a:link,.newslist2 a:hover,.newslist2 a:visited{height:24px;line-height:24px;color:#000000;font-size:12px;text-decoration:none}
+.newslist2 a:hover{text-decoration:underline}
+
+#newslist_module .newslist3{height:24px;line-height:24px;width:500px;}
+.newslist3 a:link,.newslist3 a:hover,.newslist3 a:visited{height:24px;line-height:24px;color:#000000;font-size:12px;text-decoration:none;}
+.newslist3 a:hover{text-decoration:underline}
+
+#newslist_module .newslist4{height:24px;line-height:24px;width:422px;}
+.newslist4 a:link,.newslist4 a:hover,.newslist4 a:visited{height:24px;line-height:24px;color:#000000;font-size:12px;text-decoration:none;}
+.newslist4 a:hover{text-decoration:underline}
+
+
+/*搜索样式*/
+#hpsearch{background-color:#ECECEC;height:38px;width:316px;padding:15px 0px 0px 20px}
+#hpsearch input{height:18px;border:1px #C3C3C3 solid;background-color:#ffffff;width:233px;margin-right:5px;}
+
+
+/*邮箱登录样式*/
+#maillogin{background:url(../images/loginmail_bg.gif) no-repeat;height:95px;width:100%;padding-left:40px;color:#47667B;font-size:12px;}
+#maillogin input{width:100px;height:17px;border:1px #BBA43A solid;background-color:#ffffff;margin-top:5px;}
+
+.copyright{margin:16px 0px 0px 238px;}
+
+/*友情链接样式*/
+.liangj{margin-top:10px;}
+.hplianjleft{margin-left:35px;width:17px;height:52px;background-color:#B1D5EF;margin-right:6px;}
+.hplianjie{width:500px;border-top:1px #dcdcdc solid;border-bottom:1px #dcdcdc solid;}
+.hplianjie ul li{float:left;cursor: pointer;list-style-type: none;width:116px;height:25px;line-height:25px;}
+.hplianjie li a:link,.hplianjie li a:hover,.hplianjie li a:visited{font-size:12px;color:#000000;text-decorationi:none}
+
+/*-----------------------------------首页样式结束------------------------*/
+
+
+
+
+
+body{margin:0px;padding:0px;line-height:20px;font-size:12px;font-family: Arial, Helvetica, sans-serif;}
+/* 重复定义的样式 */
+.bord_line{border-left:1px #000000 solid;border-right:1px #000000 solid;}
+.bord_line2{border:#DFDFDF solid 1px;}
+.bord_line3{ border-left:#DFDFDF solid 1px;border-top:#DFDFDF solid 1px;border-bottom:#DFDFDF solid 1px;}
+#tab1{}
+#tab1 tr {background-color:expression((this.sectionRowIndex%2==0)?"#E1F1F1":"#F0F0F0")}
+.tab2 { padding:2px}
+.tab2 td{ line-height:36px;}
+#clear{ clear:both; font-size:0px; height:0px}
+.ty_link a:link,#menu_link a:visited{ font-size:12px; color:#000; text-decoration:none}
+.ty_link a:hover{ font-size:12px; text-decoration:underline; color:#0033FF}
+.linebg1{ background-color:#fff}
+.linebg2{ background-color:#ECF3F9}
+#div2{ line-height:22px; font-size:13px; margin-left:auto; margin-right:auto; width:90%}
+#div_cont{ line-height:20px; padding:6px}
+.line_h_22{ line-height:22px; }
+/* 全局宽度*/
+#container_cach{ width:958px; margin-left:auto; margin-right:auto; }
+
+#topbar{ width:100%; height:150px;}
+/* 导航 */
+#menu{ width:100%; background-image:url(../images/bar_dh.gif); background-repeat:repeat-x; line-height:26px; }
+#menu span{ color:#016D9B; text-align:center}
+#menu a:link,#menu a:visited { font-size:12px;color:#016D9B; font-weight:bold; text-decoration:none}
+#menu a:hover{ font-size:13px;  font-weight:bold; color:#245BC2}
+/* 搜索 */
+
+#search{background-color:#EBEBEB; height:26px; line-height:26px; margin-bottom:5px;margin-top:5px}
+#search_left{ font-size:12px;}
+#search_right{  padding-right:4px;}
+/*主控区*/
+
+#main_col_left{  margin:4px 0px 4px 14px  !important;  margin:4px 0px 4px 7px; }
+#main_col_content{margin:4px 0px 4px 0px !important; margin:4px 0px 4px 0px}
+
+/* 版权 */
+#footer{ font-size:12px; text-align:center; line-height:20px;width:942px;  background-color:#B2CCDF; padding:8px; margin-top:10px}
+#foot_pic{ width:520px; margin-left:auto; margin-right:auto}
+#foot_pic span img{ float:left; margin-right:8px}
+#footline{ height:10px; background-color:#2577AB; width:100%}
+/* 其他自定义 */
+#menu_link a:link,#menu_link a:visited{ font-size:12px; color:#000000; text-decoration:underline}
+#menu_link a:hover{ font-size:12px; text-decoration:underline; color:#0033FF}
+.second_left_tit{ font-size:14px; color:#01568F; font-weight:bold}
+
+#yellow_link a:link,#menu_link a:visited{ font-size:12px; color:#857200; text-decoration:underline}
+#yellow_link a:hover{ font-size:12px; text-decoration:underline; color:#0033FF}
+#tit_link a:link,#menu_link a:visited{ font-size:13px; color:#01568F; text-decoration:none}
+#tit_link a:hover{ font-size:13px; text-decoration:underline; color:#0033FF}
+
+/*td {
+	font-family: Arial, Helvetica, sans-serif; text-align:left
+}*/
+#ess_ctr382_EditHtml_teContent_pnlRichTextBox{	font-family: Arial, Helvetica, sans-serif; text-align:left}
+#ess_ctr_ManageTabs_tblBasic{font-family: Arial, Helvetica, sans-serif; text-align:left}
+#ess_ctr_ManageTabs_tblAdvanced{font-family: Arial, Helvetica, sans-serif; text-align:left}
+#Table1 td {font-family: Arial, Helvetica, sans-serif; text-align:left}
+#Table2 td {font-family: Arial, Helvetica, sans-serif; text-align:left}
+#Table3 td {font-family: Arial, Helvetica, sans-serif; text-align:left}
+#Table4 td {font-family: Arial, Helvetica, sans-serif; text-align:left}
+
+#zt11_cczydxxm  a:link, #zt11_cczydxxm  a:visited {
+        color: #ffffff; font-size:14px;  text-decoration:none;      
+		
+		font-weight:bold;
+				        }
+
+#zt11_cczydxxm  a:hover, #zt11_cczydxxm a.firstActive:link, #zt11_cczydxxm a.firstActive:visited {
+        color: #7B2703;	font-size:14px;  text-decoration:none; 	 
+        font-weight:bold;		
+        }
+
+#zt11_list A:link{COLOR: #6D503D;font-size:12px; text-decoration:none; }
+#zt11_list A:hover{COLOR: #666;font-size:12px;text-decoration:none; }
+#zt11_list A:visited{COLOR: #6D503D;font-size:12px;text-decoration:none;}
+
+.sxyc_tit{ font-size:14px; color:#E85844; }
+
+/* 以下是水下遗产的样式信息 */
+.a{font-family:"黑体"; font-size:14px; font-weight:bolder;}
+
+#sxyc_2011_yl a:link{color:#000000; text-decoration:underline;}
+#sxyc_2011_yl a:visited{color:#000000; text-decoration:underline;}
+#sxyc_2011_yl a:hover{color:#a5acb0; text-decoration:underline;}
+
+#sxyc_2011_xglj{color:#e12107;}
+
+#sxyc_2011_zxgk{font-family:"黑体"; font-size:14px; color:#000; font-weight:bolder;}
+
+#sxyc_2011_xwtp{font-family:"黑体"; font-size:14px; color:#000; font-weight:lighter;}
+
+#bq_white{font-family:"Times New Roman"; font-size:12px; font-style:normal; color:#fff;}
+
+#sxyc_2011_lwz a:link{font-family:"Times New Roman"; font-size:12px; font-style:normal; color:#000000; text-decoration:none;}
+#sxyc_2011_lwz a:visited{font-family:"Times New Roman"; font-size:12px; font-style:normal; color:#000000; text-decoration:none;}
+#sxyc_2011_lwz a:hover{font-family:"Times New Roman"; font-size:12px; font-style:normal; color:#a5acb0; text-decoration:underline;}
+
+#sxyc_2011_dhwz a:link{font-family:"Times New Roman"; font-size:13px; font-style:normal; color:#fff; text-decoration:none;}
+#sxyc_2011_dhwz a:visited{font-family:"Times New Roman"; font-size:13px; font-style:normal; color:#fff; text-decoration:none;}
+#sxyc_2011_dhwz a:hover{font-family:"Times New Roman"; font-size:13px; font-style:normal; color:#000; text-decoration:underline;}
+
+#sxyc_2011_dhst{color:#FFFFFF;}
+
+.leftpane2 { padding:2px}
+.leftpane2 td{ line-height:16px;}
+
+
+/* 以下是茶胶寺保护修复工程的样式信息 */
+#cjsbhxf_2011_dht1{font-family:"华文中宋"; font-size:8pt; color:#000;}
+
+#cjsbhxf_2011_dht2  a:link{font-family:"Agency FB"; font-size:12pt; color:#8b3d39; font-weight:bolder; text-decoration:none;}
+#cjsbhxf_2011_dht2  a:visited{font-family:"Agency FB"; font-size:12pt; color:#8b3d39; font-weight:bolder; text-decoration:none;}
+#cjsbhxf_2011_dht2  a:hover{font-family:"Agency FB"; font-size:12pt; color:#fa1307; font-weight:bolder; text-decoration:underline;}
+
+#cjsbhxf_2011_left_dh a:link{font-family:"华文中宋"; font-size:12pt; color:#000; text-decoration:none;}
+#cjsbhxf_2011_left_dh a:visited{font-family:"华文中宋"; font-size:12pt; color:#000; text-decoration:none;}
+#cjsbhxf_2011_left_dh a:hover{font-family:"华文中宋"; font-size:12pt; color:#bbbeb8; text-decoration:underline;}
+
+#cjsbhxf_2011_rightlj a:link{font-family:"Arial"; font-size:10pt; color:#103b65; font-weight:bolder; text-decoration:none;}
+#cjsbhxf_2011_rightlj a:visited{font-family:"Arial"; font-size:10pt; color:#103b65; font-weight:bolder; text-decoration:none;}
+#cjsbhxf_2011_rightlj a:hover{font-family:"Arial"; font-size:10pt; color:#0707f8; font-weight:bolder; text-decoration:underline;}
+
+.cjsbhxf_2011_right1{filter:glow(color=#FFF4F2,strengh=255);}
+
+#cjsbhxf_2011_redtitle{font-family:Arial; font-size:12pt; color:#D91200; font-weight:bold;}
+
+#cjsbhxf_2011_xw{font-family:"Times New Roman"; font-size:16pt; color:#000;}
+
+#cjsbhxf_2011_news{font-family:"Arial"; font-size:14pt; color:#8A254B; font-weight:bold;}
+
+#cjsbhxf_2011_contenttitle{font-family:"Arial"; font-size:9.78pt; color:#335E90; font-weight:bolder;}
+
+#cjsbhxf_2011_content{font-family:"Arial"; font-size:9pt; color:#000000; font-weight:lighter;}
+
+#cjsbhxf_2011_contentt a:link{font-family:"Arial"; font-size:9pt; color:#000000; font-weight:lighter; text-decoration:none;}
+#cjsbhxf_2011_contentt a:visited{font-family:"Arial"; font-size:9pt; color:#000000; font-weight:lighter; text-decoration:none;}
+#cjsbhxf_2011_contentt a:hover{font-family:"Arial"; font-size:9pt; color:#3407F9; font-weight:lighter; text-decoration:underline;}
+
+#cjsbhxf_right a:link{font-family:"Arial"; font-size:10pt; color:#001449; text-decoration:none;}
+#cjsbhxf_right a:visited{font-family:"Arial"; font-size:10pt; color:#001449; text-decoration:none;}
+#cjsbhxf_right a:hover{font-family:"Arial"; font-size:10pt; color:#0649FA; text-decoration:underline;}
+
+/*茶胶寺专门修改的样式*/
+.tab3 { padding:2px}
+.tab3 td{ line-height:26px;}
+/*茶胶寺专门修改的样式*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
